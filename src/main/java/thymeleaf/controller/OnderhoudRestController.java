@@ -1,4 +1,4 @@
-package com.matthijs.spring.mariadb.controller;
+package thymeleaf.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

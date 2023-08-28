@@ -1,20 +1,21 @@
-package com.matthijs.spring.mariadb;
+package thymeleaf;
 
-import com.matthijs.spring.mariadb.controller.Tuin;
-import com.matthijs.spring.mariadb.repository.TuinRepo;
+import thymeleaf.controller.Tuin;
+import thymeleaf.repository.TuinRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class TuinApplication implements CommandLineRunner {
+public class ThymeleafApplication implements CommandLineRunner {
 
 	@Autowired
 	TuinRepo tuinRepo;
 
 	public static void main(String[] args) {
-		SpringApplication.run(TuinApplication.class, args);
+		SpringApplication.run(ThymeleafApplication.class, args);
 	}
 
 	@Override
@@ -26,4 +27,7 @@ public class TuinApplication implements CommandLineRunner {
 			System.out.println(tuin.getOnderhoud());
 		}
 	}
+
+
+
 }

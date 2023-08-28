@@ -1,4 +1,4 @@
-package com.matthijs.spring.mariadb.controller;
+package thymeleaf.controller;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.matthijs.spring.mariadb.controller;
+package thymeleaf.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class OnderhoudController {
 
-    @GetMapping("/iets")
+    @GetMapping
     public String getIets() {
         return "iets";
     }
