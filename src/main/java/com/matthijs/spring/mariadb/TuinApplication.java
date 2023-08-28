@@ -25,7 +25,5 @@ public class TuinApplication implements CommandLineRunner {
 			System.out.println(tuin.getPlant());
 			System.out.println(tuin.getOnderhoud());
 		}
-
 	}
-
 }
